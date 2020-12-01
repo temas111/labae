@@ -1,0 +1,40 @@
+.calculator {
+  font-size: 28px;
+  margin: 0 auto;
+  width: 10em;
+}
+.viewer {
+  color: #db2920;
+  float: left;
+  line-height: 3em;
+  text-align: right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 7.5em;
+  height: 3em;
+}
+button {
+  border: 0;
+  background: rgba(92, 197, 23, 0.28);
+  color: #0a0ee9;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  margin: 0.25em;
+  width: 2em;
+  height: 2em;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.reset {
+  background: rgba(194, 56, 49, 0.28);
+  color: #c97874;
+  font-weight: 400;
+  margin-left: -77px;
+  padding: 0.5em 1em;
+  position: absolute;
+  top: -20em;
+  left: 50%;
+  width: auto;
+  height: auto;
+}
